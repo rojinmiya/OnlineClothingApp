@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/image1"
+    tools:context=".AddItemActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Items"
+        android:textSize="50dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif"
+        android:textColor="#FFFF"
+        android:textAlignment="center"/>
+
+    <ImageView
+        android:id="@+id/imgPhoto"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:scaleType="fitCenter"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:background="@drawable/upload"/>
+
+    <EditText
+        android:id="@+id/etItemName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Item Name"
+        android:textColor="#FFFF"
+        android:textColorHint="#FFFF"
+        android:layout_margin="20dp"
+        android:textSize="30dp"/>
+
+    <EditText
+        android:id="@+id/etPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:textColor="#FFFF"
+        android:hint="Enter Item Price"
+        android:textColorHint="#FFFF"
+        android:textSize="30dp"/>
+
+    <EditText
+        android:id="@+id/etDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:layout_margin="20dp"
+        android:textColor="#FFFF"
+        android:textSize="30dp"
+        android:textColorHint="#FFFF"
+        android:hint="Enter Description"/>
+
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_gravity="center"
+        android:text="Save"
+
+        android:textColor="#FFF"
+        android:background="@drawable/mybutton"
+        android:textSize="30dp"/>
+
+</LinearLayout>

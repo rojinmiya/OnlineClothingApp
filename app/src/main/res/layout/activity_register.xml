@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/image1"
+    tools:context=".RegisterActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textSize="50dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="sans-serif"
+        android:textColor="#FFF"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:id="@+id/etFname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter First Name"
+        android:layout_margin="30dp"
+        android:textColorHint="#FFFF"
+        android:textColor="#FFFF"
+        android:textSize="30dp"/>
+    <EditText
+        android:id="@+id/etLname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Last Name"
+        android:textColorHint="#FFFF"
+        android:textColor="#FFFF"
+        android:layout_margin="30dp"
+        android:textSize="30dp"/>
+
+    <EditText
+        android:id="@+id/etUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:hint="Enter Username"
+        android:textColor="#FFFF"
+        android:textColorHint="#FFFF"
+        android:textSize="30dp"/>
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:layout_margin="30dp"
+        android:textColor="#FFFF"
+        android:textColorHint="#FFFF"
+        android:textSize="30dp"
+        android:hint="Enter Password"/>
+
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:text="Register"
+        android:textColor="#FFFF"
+        android:background="@drawable/mybutton"
+        android:textSize="30dp"/>
+
+</LinearLayout>
